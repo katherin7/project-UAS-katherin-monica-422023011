@@ -1,0 +1,200 @@
+ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 0px;
+
+}
+
+.icon {float: left;
+		 
+}
+
+.icon > h2 { margin:0;
+}
+ 
+li{font-size: 16px;
+	padding: 15px 25px 0px 33px;
+	margin-right:18px;
+	display: inline-block}
+
+.icon.dekstop{ font-size:20px;
+				margin-top: 10px;
+				margin-left: 20px;
+				color: var(--text-color);
+				font-weight:300;
+				text-decoration:none;
+				cursor:default;
+				text-wrap: nowrap}
+.mobile {display: none;}
+
+.icon.mobile{background-color: pink;
+			 color:white; 
+			 font-size: 36;}
+
+@media only screen and (max-width:500px)
+{ .mobile { display:block; }
+  .dekstop {display: none;
+  					max-width: 100%}
+  .dekstop.mobile{ display: block; } 
+  }
+		body{color: purple;
+			 background-image: url(https://humas.sambas.go.id/wp-content/uploads/2017/09/Background-Putih.jpg) ;
+			 background-size: cover;
+			 background-repeat: no-repeat;
+			 background-position: scroll;
+			 width: 100%;
+			 height: 100%;
+
+			 }
+		
+		h2{color: rebeccapurple;
+			font-size: 45;
+			font-family:Raleway ;}
+		h3{
+	font-family:Raleway ;
+	color: gold;
+	font-size: 1.8rem;
+}
+		:root {--text-color: red;
+				--bg-color: black ;
+				--main-color: black;
+				
+				--h1-font : 6rem;
+				--h2-font : 3rem;
+				--p-font  : 1.5rem;}
+		
+		
+		span { color:var(--main-color); }
+
+
+		header{position: fixed;
+			   top : 5px;
+			   left: 0;
+			   width: 100%;
+			   padding: 10px 10px;
+			   display: flex;
+			   justify-content: space-between;
+			   align-items: center;
+			   backdrop-filter: blur(5px);
+
+			}
+		.navbar{display: flex;
+				list-style: none;
+				}
+
+
+		.navbar a {color: var(--text-color);
+				   font-size: var(--p-font);
+					font-weight: 500;
+					margin: 10px 10px;
+					transition: all .5 ease;
+					text-decoration: none;
+				}
+
+		.navbar a:hover {color: var(--main-color);
+						 padding-right: 10px;
+						}
+		.follow { display: flex;
+				  align-items: center;
+				  padding-right: 30px;
+		}
+
+		.follow a:first-child {color: var(--text-color);
+								font-size: var(--p-font);
+								margin-right: 20px;}
+		.follow a{
+			vertical-align: middle;
+			font-size: 20px;
+			color: var(--main-color);
+			margin: 10px 15px;
+			margin-right: 18px;
+			margin-left: 60px;
+			transition: all .20s ease;
+		}
+
+		.follow a:hover { color:var(--main-color);
+						  padding-right: 10px; }
+		.home-text{
+								background-image: url(https://pbs.twimg.com/media/FpaycEfaEAA4Vlr.jpg:large) ;
+								background-size: cover;
+								background-position: center;
+     						background-repeat: no-repeat;
+    						margin-top: 8px;
+    		}
+
+section{padding: 90px 20px 30px;}
+
+
+div.gallery {
+  margin: 35px;
+  padding-right: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  align-items: center;
+  align-content: center;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+div.gallery2 {
+	margin-left:70px;
+  margin: 130px;
+  padding-right: 15px;
+  border: 1px solid #ccc;
+  width: 180px;
+  align-items: center;
+  margin-top: 0px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery2:hover {
+  border: 1px solid #777;
+
+}
+
+div.gallery img {
+  width: 109%;
+  height: 250px;
+}
+div.gallery2 img {
+  width: 108%;
+  height: px;
+  margin-left: 1px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;}
+
+.tombol{
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 10px 10px 10px pink;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 30px;
+  transition-duration: 3s;
+  width: 153px;
+}
+
+tombol:hover { align-content: center;
+  box-shadow: 0px 1px 2px #24c64f;
+  transform: translateY(10px);
+}
+
+i {
+    margin: 5px;
+    color: #FFE10E;
+}
+
+.footer {
+  flex-shrink: none;
+  padding-top: 100px;
+}

@@ -1,0 +1,170 @@
+ul{
+	list-style: none;
+	text-align: right;
+	padding: 0;
+
+}
+
+.icon {float: left;
+		 
+}
+
+
+.icon > h2 { margin:0;
+}
+ 
+li{font-size: 16px;
+	padding: 10px 10px;
+	margin-rihgt:18px ;
+	display: inline-block}
+
+.icon.dekstop{ font-size:20px;
+				margin-top: -4px;
+				margin-left: 20px;
+				color: var(--text-color);
+				font-weight:300;
+				text-decoration:none;
+				cursor:default;}
+.icon.mobile{background-color: pink;
+			 color:white; 
+			 font-size: 36;
+
+			}
+.mobile {display: none;
+		
+		 }
+@media only screen and (max-width:500px)
+{ .mobile { display:block; }
+  .dekstop {display: none;
+  					max-width: 100%;
+  					margin-left:40px}
+  .dekstop.mobile{ display: block; } 
+  }
+
+body{		 color: purple;
+			 background-image: url(https://humas.sambas.go.id/wp-content/uploads/2017/09/Background-Putih.jpg) ;
+			 background-size: cover;
+			 background-repeat: no-repeat;
+			 width: 100%;
+			 height: 100%;
+}
+.logo { font-size:20px;
+				color: var(--text-color);
+				font-weight:300;
+				text-decoration:none;
+				cursor:default; }
+
+		:root {--text-color: red;
+				--bg-color: black ;
+				--main-color: black;
+				
+				--h1-font : 6rem;
+				--h2-font : 3rem;
+				--p-font  : 1.5rem;}
+
+		span { color: black; }
+
+
+		header{position: relative;
+			   top : 27px;
+			   left: 0;
+			   width: 100%;
+			   padding: 2px 10px;
+			   display: flex;
+			   justify-content: space-between;
+			   align-items: center;
+			   backdrop-filter: blur(15px);
+
+			}
+
+		.navbar{ list-style:none;
+		 display:flex;
+		 		 margin-top:5px;
+		 		  }
+
+		.navbar a {color: var(--text-color);
+				   font-size: var(--p-font);
+					font-weight: 500;
+					margin: 10px 10px;
+					transition: all .5 ease;
+					text-decoration: none;}
+
+		.navbar a:hover {color: var(--main-color);
+						 padding-right: 10px;}
+
+		.follow { display: flex;
+				  align-items: center;
+				  padding-right: 30px;
+		}
+
+		.follow a:first-child {color: var(--text-color);
+								font-size: var(--p-font);
+								margin-right: 20px;}
+		.follow a{
+			vertical-align: middle;
+			font-size: 20px;
+			color: var(--main-color);
+			margin: 10px 15px;
+			margin-right: 18px;
+			margin-left: 60px;
+			transition: all .20s ease;
+		}
+
+		.follow a:hover { color:var(--main-color);
+						  padding-right: 10px; }
+
+.awards{ 
+				background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5004956-c7d5-44dc-b1c3-080cf8827715/db8wnav-2c691841-0242-48ef-8b9c-1b2e50bbe77a.png/v1/fill/w_1192,h_670,q_70,strp/twice___signal_wallpaper_version_1_by_nathanjrrf_db8wnav-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2Q1MDA0OTU2LWM3ZDUtNDRkYy1iMWMzLTA4MGNmODgyNzcxNVwvZGI4d25hdi0yYzY5MTg0MS0wMjQyLTQ4ZWYtOGI5Yy0xYjJlNTBiYmU3N2EucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.oZgXNgRCHHyvGxbaUQBYUHkmnbVBEZ15Vrf7w8ODZ-8) ;
+				background-size: cover;
+				background-position: center;
+      	background-repeat: no-repeat;
+    		margin-top: 45px;
+    		margin-left:25px;
+    		margin-right:20px;   		}
+h3{ color:white; }
+h4{font-size: 1.3rem;
+}
+p{color: white;}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  align-items: center;
+  margin-left: 102px;
+  margin-top: 30px;
+}
+
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+}
+div.gallery2 img {
+  width: 100%;
+  height: 200px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;}
+i {
+    margin: 5px;
+    color: #FFE10E;
+}
