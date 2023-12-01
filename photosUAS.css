@@ -112,7 +112,7 @@ body{color: purple;
 		.follow a:hover { color:var(--main-color);
 						  padding-right: 10px; }
 
-		section{padding: 90px 20px 30px;}
+		footer{padding: 90px 20px 30px;}
 
 
  .card { 		
