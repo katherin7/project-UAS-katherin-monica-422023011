@@ -1,5 +1,5 @@
 	body{color: #FF5733 ;
-        background-color: white ;  
+        background-image: url(https://img.freepik.com/premium-photo/soft-sky-with-cloud-background-pastel-color-abstract-gradation-color-pastel_6529-31.jpg);  
 			 background-size: cover;
 			 height: 100%;
 			 width: 100%;
@@ -23,7 +23,8 @@
 
     label{text-align: left;
           font-size: 10pt;
-          font-family: Times New Roman;          letter-spacing:0 }
+          font-family: Times New Roman;          
+          letter-spacing:0 }
 		#card {
   				background: url(https://i.pinimg.com/originals/63/f5/b4/63f5b4163eced922ffacb38632296967.jpg);
 				background-repeat: no-repeat;

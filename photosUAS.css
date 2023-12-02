@@ -17,11 +17,13 @@ li{font-size: 16px;
 	display: inline-block}
 
 .icon.dekstop{ font-size:18px;
+				margin-top: -3px;
+				margin-left: 20px;
 				color: var(--text-color);
 				font-weight:300;
-				margin-left: 20px;
 				text-decoration:none;
-				cursor:default;}
+				cursor:default;
+				text-wrap: nowrap}
 .mobile {display: none;}
 
 .icon.mobile{background-color: pink;
@@ -52,7 +54,7 @@ body{color: purple;
 				text-decoration:none;
 				cursor:default; }
 
-		:root {--text-color: pink;
+		:root {--text-color: red;
 				--bg-color: black ;
 				--main-color: black;
 				
@@ -65,18 +67,19 @@ body{color: purple;
 
 		
 		header{position: relative;
-			   top : -2px;
+			   top : 2px;
 			   left: 0;
 			   width: 100%;
 			   padding: 10px 10px;
 			   display: flex;
 			   justify-content: space-between;
 			   align-items: center;
-			   backdrop-filter: blur(5px);
+			   
+			 }
 
-			}
 		.navbar{display: flex;
 				list-style: none;
+				margin-left: 40px;
 				}
 
 
@@ -163,6 +166,5 @@ body{color: purple;
       background-repeat: no-repeat;
       margin-top: -25px;
      		color: white;
-    		
     		margin-right: 20px;
     		margin-left: 20px;}

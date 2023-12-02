@@ -19,12 +19,13 @@ li{font-size: 16px;
 	display: inline-block}
 
 .icon.dekstop{ font-size:20px;
-				margin-top: -4px;
+				margin-top: 4px;
 				margin-left: 20px;
 				color: var(--text-color);
 				font-weight:300;
 				text-decoration:none;
-				cursor:default;}
+				cursor:default;
+				text-wrap: nowrap}
 .icon.mobile{background-color: pink;
 			 color:white; 
 			 font-size: 36;
@@ -41,7 +42,7 @@ li{font-size: 16px;
   .dekstop.mobile{ display: block; } 
   }
 
-body{		 color: purple;
+body{	
 			 background-image: url(https://humas.sambas.go.id/wp-content/uploads/2017/09/Background-Putih.jpg) ;
 			 background-size: cover;
 			 background-repeat: no-repeat;

@@ -8,7 +8,6 @@ $(document).ready(function(){
 });
 
 
-
 $(document).ready(function(){
   let h3 = $('h3')
   console.log(h3.text())
