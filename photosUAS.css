@@ -101,7 +101,7 @@ body{color: purple;
 
 		.follow a:first-child {color: var(--text-color);
 								font-size: var(--p-font);
-								margin-right: 20px;}
+								margin-right: 60px;}
 		.follow a{
 			vertical-align: middle;
 			font-size: 20px;
@@ -115,7 +115,7 @@ body{color: purple;
 		.follow a:hover { color:var(--main-color);
 						  padding-right: 10px; }
 
-		footer{padding: 90px 20px 30px;}
+		section{padding: 90px 20px 30px;}
 
 
  .card { 		
@@ -164,7 +164,7 @@ body{color: purple;
 			background-size: cover;
 			background-position: center;
       background-repeat: no-repeat;
-      margin-top: -25px;
+      margin-top: -15px;
      		color: white;
     		margin-right: 20px;
     		margin-left: 20px;}

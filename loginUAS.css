@@ -14,12 +14,12 @@ ul{
 }
  
 li{font-size: 16px;
-	padding: 15px 15px 0px 33px;
+	padding: 10px 10px;	
 	margin-right:18px;
 	display: inline-block}
 
 .icon.dekstop{ font-size:20px;
-				margin-top: 10px;
+				margin-top: 5px;
 				margin-left: 13px;
 				color: var(--text-color);
 				font-weight:300;
@@ -35,7 +35,9 @@ li{font-size: 16px;
 @media only screen and (max-width:500px)
 { .mobile { display:block; }
   .dekstop {display: none;
-  					max-width: 100%}
+  					max-width: 100%;
+  					margin-left: 40px;
+  					padding-top: 5px}
   .dekstop.mobile{ display: block; } 
   }
 		body{color: purple;
@@ -102,7 +104,7 @@ li{font-size: 16px;
 
 		.follow a:first-child {color: var(--text-color);
 								font-size: var(--p-font);
-								margin-right: 20px;}
+								margin-right: 60px;}
 		.follow a{
 			vertical-align: middle;
 			font-size: 20px;
