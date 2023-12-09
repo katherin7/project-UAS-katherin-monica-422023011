@@ -25,13 +25,14 @@ li{font-size: 16px;
 				cursor:default;
 				text-wrap: nowrap}
 .mobile {display: none;}
-
+.mobile2 {display: none;}
 .icon.mobile{background-color: pink;
 			 color:white; 
 			 font-size: 36;}
 
 @media only screen and (max-width:500px)
 { .mobile { display:block; }
+	.mobile2{display: table-row;}
   .dekstop {display: none;}
   .dekstop.mobile{ display: block; } 
   }
@@ -67,15 +68,22 @@ body{color: purple;
 
 		
 		header{position: relative;
-			   top : 0px;
+			   top : px;
 			   left: 0;
 			   width: 100%;
-			   padding: 10px 10px;
+			   padding: 15px 10px;
 			   display: flex;
 			   justify-content: space-between;
 			   align-items: center;
 			   
 			 }
+
+		header2{
+				position: relative;
+				margin-bottom: 15px;
+
+
+		}
 
 		.navbar{display: flex;
 				list-style: none;
