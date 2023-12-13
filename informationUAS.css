@@ -66,7 +66,19 @@ li{font-size: 16px;
 
 			}
 
-		h2{ padding-top:30px; }
+
+		h2{ padding-top:10px; 
+				}
+
+		.home-text{
+								background-image: url(https://www.dreamers.id/img_editor/58467/images/TWICE-22.jpg) ;
+								background-size: cover;
+								background-position: center;
+     						background-repeat: no-repeat;
+    						padding-right: 0px;
+    						margin-left: 20px;
+    						margin-right: 20px;
+    		}
 
 		.navbar{display: flex;
 				list-style: none;}
@@ -114,3 +126,70 @@ li{font-size: 16px;
 		i{
 			color: #FFE10E;;
 		}
+
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: contents;
+  position: absolute;
+  clear: both
+}
+
+
+.column-33 {
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+.info1{
+	margin-bottom:15px;
+	height: 180px;
+}
+
+.info3{
+	width: 500px;
+	height: 180px;
+}
