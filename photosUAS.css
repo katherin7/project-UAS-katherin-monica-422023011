@@ -49,6 +49,10 @@ body{color: purple;
 .navbar1{list-style: none;
 			display: flex;
 			}
+.navbar2{
+			list-style: none;
+			display: contents;
+}
 .logo { font-size:18px;
 				color: var(--text-color);
 				font-weight:300;
@@ -176,3 +180,24 @@ body{color: purple;
      		color: white;
     		margin-right: 30px;
     		margin-left: 30px;}
+
+.card2 { 		
+				   max-width:300px;
+				   height: 400px;
+				   background-color: #FFF;
+				   margin: 30px;
+				   margin-right: 30px;
+					padding: 45px 15px;
+					display: flex;
+					flex-direction: column;
+					box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+					transition: 0.3s ease-in-out;
+					
+				}
+
+ .card2:hover{ height:620px; }
+
+  .card2:hover .content { visibility:visible;
+									opacity:1;
+									margin-top:40px;
+									transition-delay:0.3s; }
